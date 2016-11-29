@@ -40,20 +40,8 @@ Configuration
 The script
 ----------
 
-1. Clone the script
-
-.. code-block:: bash
-	
-	git clone git@github.com:drivard/update-noip.git
-
-2. Edit the script with your username, password, hostname and ip addresses bag.
-
-.. code-block:: pycon
-	
-	IPS_BAG  = ["152.25.65.88", "154.58.69.25", "45.255.6.54"]
-	HOSTNAME = "yourhostname.no-ip.com"
-	USERNAME = "username"
-	PASSWORD = "password" 
+- Copy the file in etc/noip.ini.sample in etc/noip.ini
+- Edit the credentials in this file
 
 Execution
 ---------
